@@ -1,7 +1,7 @@
-
+'''
 Num1 = int(input("Enter a number: "))
 Num2 = float(input("Enter another number: "))
-sum = Num1 + Num2
+sum = int(Num1 + Num2)
 print(sum)
 
 name = input("Enter your name: ")
@@ -13,6 +13,13 @@ print(f"you name is {name} and your school name is {School}")
 floatVariable =4.35698769874
 print(f"Your name is {name} and your float number is : {floatVariable} ")
 print(f"Your name is {name} and your float number is : {floatVariable:.2f} ")
+'''
+import math
+
+rds = float(input("Enter the rds: "))
+area = math.pi * (rds**2)
+print(f"Your RDS is: {rds} and your area is {area}")           #Calculating Area
+print(f"Your RDS is: {rds} and your area is {area:.2f}")       #calculating for 2 decimal
 
 '''
 intVariable = 4
