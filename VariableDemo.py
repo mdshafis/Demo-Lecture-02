@@ -19,7 +19,7 @@ import math
 rds = float(input("Enter the rds: "))
 area = math.pi * (rds**2)
 print(f"Your RDS is: {rds} and your area is {area}")           #Calculating Area
-print(f"Your RDS is: {rds} and your area is {area:.2f}")       #calculating for 2 decimal
+print(f"Your RDS is: {rds} and your area is {area:.3f}")       #calculating for 2 decimal
 
 '''
 intVariable = 4
